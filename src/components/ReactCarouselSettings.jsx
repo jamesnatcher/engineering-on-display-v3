@@ -32,8 +32,8 @@ export default function ReactCarouselSettings() {
 
         setIsCreatingCarousel(true)
 
-        let newCarouselTitle = "Carousel " + (allCarousels.length + 1)
-        await createCarousel(newCarouselTitle)
+        // let newCarouselTitle = "Carousel " + (allCarousels.length + 1)
+        // await createCarousel(newCarouselTitle)
         const carousels = await getAllCarousels()
         setAllCarousels(carousels)
         console.log("New carousel!");
@@ -44,9 +44,9 @@ export default function ReactCarouselSettings() {
     async function deleteCarousel(e) {
         e.preventDefault();
 
-        deleteCarouselById(selectedCarousel.id)
-        const data = allCarousels.filter(i => i.id !== selectedCarousel.id)
-        setAllCarousels(data)
+        // deleteCarouselById(selectedCarousel.id)
+        // const data = allCarousels.filter(i => i.id !== selectedCarousel.id)
+        // setAllCarousels(data)
         setSelectedCarousel(allCarousels[0])
     }
 

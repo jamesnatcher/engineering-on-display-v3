@@ -155,7 +155,8 @@ export default function ReactCarouselGrid({ selectedCarousel, fieldState, delete
                                                         <div className="pb-5 px-5 flex justify-between items-center">
                                                             <button type="button"
                                                                 className="px-4 mr-10 py-2 text-sm font-medium text-gray-900 bg-gray-300 border rounded-lg border-gray-200 hover:bg-red-500 focus:z-10  dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-red-500"
-                                                                onClick={(e) => deleteImage(image.name)}>
+                                                                //onClick={(e) => deleteImage(image.name)}
+                                                                >
                                                                 Delete
                                                             </button>
                                                             <div className="flex justify-between ml-4 items-center text-gray-500">
